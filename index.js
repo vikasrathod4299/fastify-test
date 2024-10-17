@@ -2,7 +2,6 @@ const fastify = require("fastify")({ logger: true });
 const userRoutes = require("./routes/user.routes.js");
 
 fastify.register(userRoutes, {prefix:"/api/users"});
-
 const start = async () => {
   try {
     await fastify.listen({ port: 3000, host:'localhost' });
