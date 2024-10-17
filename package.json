@@ -1,0 +1,13 @@
+{
+  "name": "fastify-app",
+  "version": "1.0.0",
+  "description": "Fastify App",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon node index.js"
+  },
+  "dependencies": {
+    "fastify": "^5.0.0",
+    "nodemon": "^3.1.7"
+  }
+}
